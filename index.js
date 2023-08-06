@@ -5,7 +5,9 @@ const characterLengthBar = document.querySelector('.characterLengthBar');
 const characterLengthBarColored = document.createElement('div');
 characterLengthBarColored.style.backgroundColor = 'lightgreen';
 characterLengthBarColored.style.height = `${characterLengthBar.offsetHeight}px`;
-characterLengthBar.append(characterLengthBarColored);
+const roundedBar = document.createElement('div');
+roundedBar.classList.add('roundedBar');
+characterLengthBar.append(characterLengthBarColored, roundedBar);
 
 const pwdStrengthStatus = document.querySelector('.pwdStrengthStatus');
 
