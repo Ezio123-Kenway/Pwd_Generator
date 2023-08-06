@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.mainContainer {
+    width: 500px;
+    margin: 140px auto;
+}
+
+p {
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: lightgray;
+}
+
+.pwd {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+    color: lightgray;
+}
+
+.statusContainer {
+    width: 100%;
+    padding: 30px 25px;
+    background-color: gray;
+}
+
+.characterLengthBar {
+    width: 100%;
+    height: 6px;
+    margin-bottom: 30px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.pwdLength {
+    color: lightgreen;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pwdContainer {
+    padding: 15px 5px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+.characterLengthStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.checkBoxContainer1, .checkBoxContainer2, .checkBoxContainer3 {
+    margin-bottom: 20px;
+}
+
+.checkBoxContainer4 {
+    margin-bottom: 25px;
+}
+
+.pwdStrengthStatusContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    margin-bottom: 30px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.generateBtn {
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input {
+    cursor: pointer;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-right: 15px;
+}
+
+span {
+    color: white;
+}
+
+.strengthText {
+    font-size: 14px;
+}
+
+.pwdStrengthStatus {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 13px;
+}
+
+.statusConditionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 10px;
+    height: 27px;
+    border: 2px solid white;
+    display: none;
+}
+
+.right {
+    margin-right: 6px;
+}

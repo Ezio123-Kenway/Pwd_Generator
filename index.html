@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <p class="header">Password Generator</p>
+        <div class="pwdContainer">
+            <input type="text" class="pwd">
+        </div>
+
+        <div class="statusContainer">
+            <div>
+                <div class="characterLengthStatus">
+                    <p class="text">Character Length</p>
+                    <p class="pwdLength"></p>
+                </div>
+                <div class="characterLengthBar"></div>
+
+                <div class="checkBoxContainer1">
+                    <input type="checkbox" class="checkbox1" disabled>
+                    <span class="text">Include Uppercase Letters</span>
+                </div>
+                <div class="checkBoxContainer2">
+                    <input type="checkbox" class="checkbox2" disabled>
+                    <span class="text">Include Lowercase Letters</span>
+                </div>
+                <div class="checkBoxContainer3">
+                    <input type="checkbox" class="checkbox3" disabled>
+                    <span class="text">Include Numbers</span>
+                </div>
+                <div class="checkBoxContainer4">
+                    <input type="checkbox" class="checkbox4" disabled>
+                    <span class="text">Include Symbols</span>
+                </div>
+
+                <div class="pwdStrengthStatusContainer">
+                    <p class="strengthText">STRENGTH</p>
+                    <div class="statusConditionContainer">
+                        <p class="pwdStrengthStatus"></p>
+                        <div class="box right"></div>
+                        <div class="box right"></div>
+                        <div class="box right"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+
+                <button class="generateBtn">GENERATE</button>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
