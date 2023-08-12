@@ -178,8 +178,4 @@ span {
         width: 500px;
     }
 }
-
-.checkbox:checked {
-    background-color: red;
-}
   
