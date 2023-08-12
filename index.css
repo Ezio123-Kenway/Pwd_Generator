@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #142356;
 }
 
 .mainContainer {
@@ -13,33 +13,31 @@ body {
     margin: 140px auto;
 }
 
-p {
-    color: white;
+.text {
+    color: #0D0D0D;
 }
 
 .header {
     text-align: center;
     margin-bottom: 25px;
     font-size: 25px;
-    color: black;
+    color: white;
     font-weight: bold;
-    opacity: 0.6;
 }
 
 .pwdContainer {
-    background-color: #6528F7;
-    opacity: 0.8;
+    background-color: #D2DCFF;
 }
 
 .pwd {
     display: block;
     width: 100%;
     padding: 20px;
-    background-color: #6528F7;
+    background-color: #D2DCFF;
     font-size: 35px;
     font-weight: bold;
     border: none;
-    color: white;
+    color: #FF0000;
 }
 
 .pwd:focus {
@@ -49,8 +47,7 @@ p {
 .statusContainer {
     width: 100%;
     padding: 30px 25px;
-    background-color: #6528F7;
-    opacity: 0.8;
+    background-color: #D2DCFF;
 }
 
 .characterLengthBar {
@@ -58,21 +55,20 @@ p {
     height: 6px;
     margin-bottom: 30px;
     background-color: white;
-    opacity: 0.6;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .pwdLength {
-    color: white;
+    color: #0D0D0D;
     font-size: 28px;
     font-weight: bold;
 }
 
 .pwdContainer {
     padding: 15px 5px;
-    background-color: #6528F7;
+    background-color: #D2DCFF;
     margin-bottom: 15px;
 }
 
@@ -103,7 +99,7 @@ p {
     align-items: center;
     padding: 22px;
     margin-bottom: 30px;
-    background-color: #763bfd;
+    background-color: #3553BC;
     opacity: 1;
 }
 
@@ -117,7 +113,7 @@ p {
     background-color: black;
     font-size: 17px;
     font-weight: bold;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 input {
@@ -129,7 +125,7 @@ input {
 }
 
 span {
-    color: white;
+    color: #0D0D0D;
 }
 
 .strengthText {
@@ -181,5 +177,9 @@ span {
     .mainContainer {
         width: 500px;
     }
+}
+
+.checkbox:checked {
+    background-color: red;
 }
   
